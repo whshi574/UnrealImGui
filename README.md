@@ -23,6 +23,10 @@ Fork Additions/Fixes
  - Updated input handling flow to be [standard compliant](https://github.com/ocornut/imgui/issues/4921) with Dear ImGui 1.87 which makes ImGui react better at low FPS. Will add `IMGUI_DISABLE_OBSOLETE_KEYIO` preprocessor once I've ripped out old style input.
  - Allowed `UTexture` for Texture Manager so render targets can also be rendered to quads rather than just being limited to using `UTexture2D` instances.
  - Added the ability to instruct ImGui context to build custom fonts (like FontAwesome).
+ 
+**IDI-Systems Additions/Fixes**
+- Based on `benui-dev/UnrealImGui#9496087f9c3fab18a40df60e2206b616cbe79d92`.
+- Changed Module Type to `Runtime`.
 
 Status
 ------

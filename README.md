@@ -34,6 +34,7 @@ Also note that the NetImGui branch is not up to date with any of this fork's cha
 
 **This Fork:**
 - Changed Module Type to `Runtime`.
+- Replace `strcpy_s` with `strncpy`.
 
 How to Set up
 -------------

@@ -8,10 +8,10 @@ Dear ImGui is an immediate-mode graphical user interface library that is very li
 
 Status
 ------
-- ImGui `v1.88`
+- ImGui `v1.89`
 - ImPlot `v0.14`
 
-Supported Unreal Engine version: `4.26`, `5.0`
+Supported Unreal Engine version: `4.26`, `5.0`, `5.1`
 
 _Note: Plugin has been tested and if necessary updated to compile and work with this engine version. As long as possible we will try to maintain backward compatibility of existing features and possibly but not necessarily when adding new features. When it comes to bare-bone ImGui version it should be at least backward compatible with the engine version 4.15. For NetImgui it needs to be determined._
 
@@ -24,7 +24,7 @@ Large portions of this `README.md` have been removed to keep redundant informati
 Also note that the NetImGui branch is not up to date with any of this fork's changes.
 
 - Updated core source files for **Unreal Engine 5** while maintaining **Unreal Engine 4** compatibility.
-- Updated Dear ImGui to `v1.88`.
+- Updated Dear ImGui to `v1.89`.
 - Added ImPlot `v0.14`.
 - `ImGui::IsKey*` now functional with all known ImGui keys.
 - Updated input handling flow to be [standard compliant](https://github.com/ocornut/imgui/issues/4921) with Dear ImGui 1.87 which makes ImGui react better at low FPS. ~~Will add `IMGUI_DISABLE_OBSOLETE_KEYIO` preprocessor once I've ripped out old style input.~~

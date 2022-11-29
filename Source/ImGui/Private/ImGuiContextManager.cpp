@@ -11,6 +11,10 @@
 
 #include <imgui.h>
 
+// MSVC warnings
+#ifdef _MSC_VER
+#pragma warning (disable: 4996) // 'This function or variable may be unsafe': strcpy, strdup, sprintf, vsnprintf, sscanf, fopen
+#endif
 
 // TODO: Refactor ImGui Context Manager, to handle different types of worlds.
 

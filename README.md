@@ -9,11 +9,11 @@ Dear ImGui is an immediate-mode graphical user interface library that is very li
 Status
 ------
 - [ImGui `v1.89.1`](https://github.com/ocornut/imgui/releases/tag/v1.89.1)
-- [ImPlot `v0.14+d8751235`](https://github.com/epezent/implot/tree/d87512353495e7760e7fda7566a05beef7627d8f)
+- [ImPlot `v0.14+18758e23`](https://github.com/epezent/implot/tree/18758e237e8906a97ddf42de1e75793526f30ce9)
 
-Supported Unreal Engine version: `4.26`, `5.0`, `5.1`
+Supported Unreal Engine version: `4.26`, `5.0`, `5.1`, `5.2`
 
-_Note: Plugin has been tested and if necessary updated to compile and work with this engine version. As long as possible we will try to maintain backward compatibility of existing features and possibly but not necessarily when adding new features. When it comes to bare-bone ImGui version it should be at least backward compatible with the engine version 4.15. For NetImgui it needs to be determined._
+_Note: Plugin has been tested and if necessary updated to compile and work with these engine versions. As long as possible we will try to maintain backward compatibility of existing features and possibly but not necessarily when adding new features. When it comes to bare-bone ImGui version it should be at least backward compatible with the engine version 4.15. For NetImgui it needs to be determined._
 
 Fork Information
 ----------------
@@ -25,7 +25,7 @@ Also note that the NetImGui branch is not up to date with any of this fork's cha
 
 - Updated core source files for **Unreal Engine 5** while maintaining **Unreal Engine 4** compatibility.
 - Updated Dear ImGui to `v1.89.1`.
-- Added ImPlot `v0.14+d8751235`.
+- Added ImPlot `v0.14+18758e23`.
 - `ImGui::IsKey*` now functional with all known ImGui keys.
 - Updated input handling flow to be [standard compliant](https://github.com/ocornut/imgui/issues/4921) with Dear ImGui 1.87 which makes ImGui react better at low FPS. ~~Will add `IMGUI_DISABLE_OBSOLETE_KEYIO` preprocessor once I've ripped out old style input.~~
 - Allowed `UTexture` for Texture Manager so render targets can also be rendered to quads rather than just being limited to using `UTexture2D` instances.

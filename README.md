@@ -39,7 +39,7 @@ On top of reading the base repository's [How to Set up](https://github.com/segro
 
 ```cpp
 // Tell the compiler we want to import the ImPlot symbols when linking against ImGui plugin 
-PrivateDefinitions.Add(string.Format("IMPLOT_API=DLLIMPORT"));
+PrivateDefinitions.Add("IMPLOT_API=DLLIMPORT");
 ```
 
 # Additional Knowledge

@@ -35,12 +35,7 @@ Also note that the NetImGui branch is not up to date with any of this fork's cha
 
 How to Set up
 -------------
-On top of reading the base repository's [How to Set up](https://github.com/segross/UnrealImGui/blob/master/README.md#how-to-set-up) segment, you'll need to add the following line to your `[GameName].Build.cs` file otherwise you'll get linking errors:
-
-```cpp
-// Tell the compiler we want to import the ImPlot symbols when linking against ImGui plugin 
-PrivateDefinitions.Add("IMPLOT_API=DLLIMPORT");
-```
+Read the base repository's [How to Set up](https://github.com/segross/UnrealImGui/blob/master/README.md#how-to-set-up) segment.
 
 # Additional Knowledge
 

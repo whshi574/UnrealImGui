@@ -11,7 +11,7 @@ Status
 - [ImGui `v1.89.9`](https://github.com/ocornut/imgui/releases/tag/v1.89.9)
 - [ImPlot `v0.16`](https://github.com/epezent/implot/releases/tag/v0.16)
 
-Supported Unreal Engine version: `4.26`, `5.0`, `5.1`, `5.2`
+Supported Unreal Engine version: `4.26`, `5.0`, `5.1`, `5.2`, `5.3`
 
 _Note: Plugin has been tested and if necessary updated to compile and work with these engine versions. As long as possible we will try to maintain backward compatibility of existing features and possibly but not necessarily when adding new features. When it comes to bare-bone ImGui version it should be at least backward compatible with the engine version 4.15. For NetImgui it needs to be determined._
 

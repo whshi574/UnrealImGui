@@ -69,7 +69,7 @@ enum class EImGuiCanvasSizeType : uint8
 };
 
 /**
- * Struct with information how to calculate canvas size. 
+ * Struct with information how to calculate canvas size.
  */
 USTRUCT()
 struct FImGuiCanvasSizeInfo
@@ -175,7 +175,7 @@ protected:
 
 	// Path to own implementation of ImGui Input Handler allowing to customize handling of keyboard and gamepad input.
 	// If not set then default handler is used.
-	UPROPERTY(EditAnywhere, config, Category = "Extensions", meta = (MetaClass = "ImGuiInputHandler"))
+	UPROPERTY(EditAnywhere, config, Category = "Extensions", meta = (MetaClass = "/Script/ImGui.ImGuiInputHandler"))
 	FSoftClassPath ImGuiInputHandlerClass;
 
 	// Whether ImGui should share keyboard input with game.
